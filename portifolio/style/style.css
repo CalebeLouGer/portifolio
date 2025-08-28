@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    box-sizing: border-box ;
+    background-color: #0D1C33;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.titulo-destaque{
+    color: #0062ff;
+}
+.container{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container__apresentacao{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.container__apresentacao__titulo{
+    font-size: 36px;
+    font-family: 'krona one', sans-serif;
+}
+.container__apresentacao__texto{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    color: #BEC9DB;
+}
+.container__apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.container__apresentacao__links__redes{
+    /* background-color: #273C5C; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #BEC9DB;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: 2px solid #BEC9DB;
+}
+.container__apresentacao__links__redes:hover{
+    background-color:#506586 ;
+    color:white;
+    transition: .3s;
+    cursor: pointer;
+}
+.container__img_perfil{
+    width: 350px;
+    border-radius: 50%;
+    border: 8px solid #BEC9DB;
+}
+.container__apresentacao__links__subtitulo{
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+}
+.rodape{
+    text-align: center;
+    padding: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #0A1626;
+    color: #BEC9DB;
+}
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__menu__link {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #BEC9DB;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover {
+    color: #007bff;
+    transition: .3s;
+}
