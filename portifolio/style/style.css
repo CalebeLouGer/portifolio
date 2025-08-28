@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
+:root {
+    --cor-primaria: #0D1C33;
+    --cor-secundaria: #BEC9DB;
+    --cor-destaque: #0062ff;
+    --cor-fundo-escuro: #0A1626;
+    --cor-hover: #506586;
+}
 *, 
 *:after,
 *:before {
@@ -105,4 +113,22 @@ body{
 .cabecalho__menu__link:hover {
     color: #007bff;
     transition: .3s;
+}
+
+.container__apresentacao__texto__lista{
+    list-style: inside;
+    
+}
+.container__apresentacao__texto__lista li{
+    padding: 0 10%;
+
+}
+.apresentacao__certificados__link{
+    color: #BEC9DB;
+    text-decoration: none;
+}
+.apresentacao__certificados__link:hover{
+    transition: .3s;
+    cursor: pointer;
+    color: #007bff;
 }
