@@ -1,4 +1,3 @@
-Claro! Aqui está um modelo de **README.md** bem estruturado e claro para o seu projeto "portifolio", com base nas informações visíveis no repositório:
 
 ---
 
