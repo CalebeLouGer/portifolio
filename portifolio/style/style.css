@@ -132,3 +132,35 @@ body{
     cursor: pointer;
     color: #007bff;
 }
+
+
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        padding: 5% 10%;
+        gap: 40px;
+        font-size: small;
+    }
+    .container__apresentacao{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .container__apresentacao__links{
+        flex-direction: column;
+        width: 100%;
+    }
+    .container__apresentacao__links__redes{
+        width: 100%;
+    }
+    .container__img_perfil{
+        width: 250px;
+    }
+    .cabecalho{
+        padding: 2% 0 0 10%;
+    }
+    .cabecalho__menu{
+        gap: 40px;
+        
+    }
+}
