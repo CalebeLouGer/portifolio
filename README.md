@@ -77,7 +77,7 @@ portifolio/
 
 ## Sobre mim
 
-Sou desenvolvedor(a) em início de carreira/estudante. Este portfólio foi feito como aprendizado para aplicar os conteúdos estudados nos cursos da **Alura ONE**, servindo como um espaço para mostrar minhas habilidades com HTML e CSS de forma simples e eficiente.
+Sou desenvolvedor em início de carreira/estudante. Este portfólio foi feito como aprendizado para aplicar os conteúdos estudados nos cursos da **Alura ONE**, servindo como um espaço para mostrar minhas habilidades com HTML e CSS de forma simples e eficiente.
 
 ---
 
@@ -97,7 +97,3 @@ Contribuições são bem-vindas! Para isso:
 
 Se quiser conversar ou trocar ideias, entre em contato!
 (https://www.instagram.com/_calebe.l/)
-
-```
-
----
