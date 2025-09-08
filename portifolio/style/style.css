@@ -61,7 +61,6 @@ body{
     gap: 32px;
 }
 .container__apresentacao__links__redes{
-    /* background-color: #273C5C; */
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -150,6 +149,7 @@ body{
         padding: 10%;
     }
     .cabecalho__menu{
+        flex-wrap: wrap;
         justify-content: center;   
         gap: 40px;
     }
@@ -166,10 +166,13 @@ body{
     }
     .container__apresentacao__links{
         flex-direction: column;
-        width: 50%;
     }
     .container__apresentacao__links__redes{
-        width: 100%;
+        font-size: 1rem;
+        width: 50%;
+    }
+    .container__apresentacao__links__redes img{
+        width: 10%;
     }
     .container__img_perfil{
         width: 50%;
