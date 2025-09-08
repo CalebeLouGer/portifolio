@@ -33,22 +33,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 .curriculo{
     justify-content: center;
 }
 .container__apresentacao{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 .container__apresentacao__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-principal);
 }
 .container__apresentacao__texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
     color: var(--cor-secundaria);
 }
@@ -64,10 +65,10 @@ body{
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
@@ -82,17 +83,17 @@ body{
     cursor: pointer;
 }
 .container__img_perfil{
-    width: 350px;
+    width: 50%;
     border-radius: 50%;
     border: 8px solid var(--cor-secundaria);
 }
 .container__apresentacao__links__subtitulo{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-principal);
     font-weight: 400;
 }
 .container__apresentacao__subtitulo{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-principal);
     font-weight: 400;
 }
@@ -100,7 +101,7 @@ body{
     text-align: center;
     padding: 24px;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     background-color: var(--cor-terciaria);
     color: var(--cor-secundaria);
@@ -115,7 +116,7 @@ body{
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor-secundaria);
     text-decoration: none;
 }
@@ -144,33 +145,37 @@ body{
 }
 
 
-@media (max-width: 768px) {
-    .container{
-        flex-direction: column;
-        padding: 5% 10%;
+@media (max-width: 1200px) {
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho__menu{
+        justify-content: center;   
         gap: 40px;
-        font-size: small;
+    }
+    .container{
+        flex-direction: column-reverse;
+        padding: 5%;
+        gap: 40px;
+        font-size: 1.5rem;
     }
     .container__apresentacao{
-        width: 100%;
+        width: auto;
         text-align: center;
         align-items: center;
     }
     .container__apresentacao__links{
         flex-direction: column;
-        width: 100%;
+        width: 50%;
     }
     .container__apresentacao__links__redes{
         width: 100%;
     }
     .container__img_perfil{
-        width: 250px;
+        width: 50%;
     }
-    .cabecalho{
-        padding: 2% 0 0 10%;
-    }
-    .cabecalho__menu{
-        gap: 40px;
-        
+    .rodape{
+        width: 100%;
+        font-size: 1.2rem;
     }
 }
