@@ -3,10 +3,10 @@
 
 
 :root {
-    --cor-primaria: #EEEEEE;
-    --cor-secundaria: #686D76;
-    --cor-terciaria: #373A40;
-    --cor-hover: #DC5F00;
+    --cor-primaria: #1D1616;
+    --cor-secundaria: #EEEEEE;
+    --cor-terciaria: #8E1616;
+    --cor-hover: #D84040;
     /* --cor-destaque: #F96D80; */
 
     --fonte-principal: 'Krona One', sans-serif;
@@ -77,7 +77,7 @@ body{
 }
 .container__apresentacao__links__redes:hover{
     background-color:var(--cor-hover) ;
-    color:white;
+    color: var(--cor-primaria);
     transition: .3s;
     cursor: pointer;
 }
