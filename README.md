@@ -6,21 +6,21 @@
 
 ## 🚀 Tecnologias Utilizadas
 
-- HTML (linguagem de marcação para estruturar o conteúdo) :contentReference[oaicite:0]{index=0}  
-- CSS (para estilização, layout, cores, responsividade) :contentReference[oaicite:1]{index=1}  
+- HTML (linguagem de marcação para estruturar o conteúdo) 
+- CSS (para estilização, layout, cores, responsividade)  
 
 ---
 
 ## 📖 Sobre o Projeto
 
-Este portfólio é um **projeto pessoal** que tem como objetivo mostrar um pouco sobre mim — quem eu sou, meus conhecimentos, meus projetos — utilizando **HTML** e **CSS**, com o suporte de aprendizado oferecido pelos cursos da **Alura ONE**. :contentReference[oaicite:2]{index=2}
+Este portfólio é um **projeto pessoal** que tem como objetivo mostrar um pouco sobre mim — quem eu sou, meus conhecimentos, meus projetos — utilizando **HTML** e **CSS**, com o suporte de aprendizado oferecido pelos cursos da **Alura ONE**. 
 
 O site serve para:
 - apresentar habilidades técnicas de front-end básicas (marcação e estilos),
 - fornecer uma vitrine para quem quiser conhecer mais sobre mim profissionalmente,
 - praticar e consolidar conhecimentos de design web e desenvolvimento frontend.  
 
-O projeto está online no endereço: [calebelouger.vercel.app](https://calebelouger.vercel.app/) :contentReference[oaicite:3]{index=3}
+O projeto está online no endereço: [calebelouger.vercel.app](https://calebelouger.vercel.app/) 
 
 ---
 
@@ -46,13 +46,15 @@ portifolio/
 ## 🛠️ Como visualizar/utilizar este projeto
 
 1. Clone este repositório:
-   ```bash
+   ```
+   bash
    git clone https://github.com/CalebeLouGer/portifolio.git
-````
+   ````
 
 2. Navegue até a pasta do projeto:
 
-   ```bash
+   ```
+   bash
    cd portifolio
    ```
 3. Abra o arquivo `index.html` em um navegador web para ver o site em funcionamento.
