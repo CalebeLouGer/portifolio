@@ -1,99 +1,78 @@
+# 🌐 Portifólio de CalebeLouGer
+
+> Um site pessoal que mostra meus conhecimentos em HTML e CSS, desenvolvido com base nos cursos da Alura ONE.
 
 ---
 
-````markdown
-# Portifolio
+## 🚀 Tecnologias Utilizadas
 
-Uma página pessoal desenvolvida com HTML e CSS para apresentar meus conhecimentos e um pouco sobre mim. Projeto criado com base nos cursos da Alura ONE.
-
----
-
-##  Sumário
-
-- [Visão Geral](#visão-geral)  
-- [Demonstração Online](#demonstração-online)  
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)  
-- [Como Executar Localmente](#como-executar-localmente)  
-- [Estrutura do Projeto](#estrutura-do-projeto)  
-- [Sobre mim](#sobre-mim)  
-- [Contribuição](#contribuição)  
-- [Licença](#licença)
+- HTML (linguagem de marcação para estruturar o conteúdo) :contentReference[oaicite:0]{index=0}  
+- CSS (para estilização, layout, cores, responsividade) :contentReference[oaicite:1]{index=1}  
 
 ---
 
-##  Visão Geral
+## 📖 Sobre o Projeto
 
-Este projeto é uma página de portfólio desenvolvida pessoalmente, com o objetivo de exibir meus conhecimentos em HTML e CSS. Foi criado como parte do aprendizado nos cursos da Alura ONE.
+Este portfólio é um **projeto pessoal** que tem como objetivo mostrar um pouco sobre mim — quem eu sou, meus conhecimentos, meus projetos — utilizando **HTML** e **CSS**, com o suporte de aprendizado oferecido pelos cursos da **Alura ONE**. :contentReference[oaicite:2]{index=2}
 
----
+O site serve para:
+- apresentar habilidades técnicas de front-end básicas (marcação e estilos),
+- fornecer uma vitrine para quem quiser conhecer mais sobre mim profissionalmente,
+- praticar e consolidar conhecimentos de design web e desenvolvimento frontend.  
 
-##  Demonstração Online
-
-Acesse a versão hospedada online em:  
-[Meu portfólio ao vivo](https://portifolio-calebelouger.vercel.app/)
-
----
-
-##  Tecnologias Utilizadas
-
-- **HTML** – estruturação do conteúdo  
-- **CSS** – estilos visuais e layout  
+O projeto está online no endereço: [calebelouger.vercel.app](https://calebelouger.vercel.app/) :contentReference[oaicite:3]{index=3}
 
 ---
 
-##  Como Executar Localmente
+## 📂 Estrutura do Projeto
 
-1. Clone o repositório:  
+Aqui está uma visão geral de como o repositório está organizado:
+
+```
+
+portifolio/
+│── index.html          # Página principal apresentando o portfólio
+│── estilos/            # Pasta possivelmente com arquivos CSS
+│── assets/             # Imagens, ícones e outras mídias usadas
+│── README.md           # Este documento de apresentação
+│── .gitignore          # Arquivos/pastas ignoradas no git
+
+````
+
+(Pode variar se você tiver outros arquivos ou pastas particulares)  
+
+---
+
+## 🛠️ Como visualizar/utilizar este projeto
+
+1. Clone este repositório:
    ```bash
    git clone https://github.com/CalebeLouGer/portifolio.git
 ````
 
-2. Acesse o diretório do projeto:
+2. Navegue até a pasta do projeto:
 
    ```bash
    cd portifolio
    ```
-
-3. Abra o arquivo `index.html` no seu navegador favorito (basta dar um duplo clique ou usar roupas localmente, por exemplo, via Live Server no VSCode):
-
----
-
-## Estrutura do Projeto
-
-```
-portifolio/
-├── .gitignore
-├── index.html
-├── style.css
-└── README.md
-```
-
-* `index.html`: arquivo principal com a estrutura da página.
-* `style.css`: arquivo responsável por todo o estilo visual.
-* `.gitignore`: lista de arquivos/desconhecidos ignorados pelo GIT.
-* `README.md`: este guia explicativo.
+3. Abra o arquivo `index.html` em um navegador web para ver o site em funcionamento.
 
 ---
 
-## Sobre mim
+## 👤 Autor
 
-Sou desenvolvedor em início de carreira/estudante. Este portfólio foi feito como aprendizado para aplicar os conteúdos estudados nos cursos da **Alura ONE**, servindo como um espaço para mostrar minhas habilidades com HTML e CSS de forma simples e eficiente.
-
----
-
-## Como Contribuir
-
-Contribuições são bem-vindas! Para isso:
-
-1. Crie um fork do projeto
-2. Crie uma nova branch (`git checkout -b minha-contribuicao`)
-3. Faça suas alterações e commits (`git commit -m "Minha contribuição"`)
-4. Publique sua branch (`git push origin minha-contribuicao`)
-5. Abra um Pull Request para ser avaliado
+Desenvolvido por **[CalebeLouGer](https://github.com/CalebeLouGer)**.
 
 ---
 
-## Contato
+## 📝 Possíveis melhorias / contribuições
 
-Se quiser conversar ou trocar ideias, entre em contato!
-(https://www.instagram.com/_calebe.l/)
+* Adicionar interatividade com JavaScript (por exemplo, animações, transições)
+* Incluir seções extras como “Blog”, “Contato”
+* Melhorar acessibilidade (uso de roles, ARIA, contraste etc.)
+
+---
+
+## 📌 Status
+
+✅ Em desenvolvimento — o site já está funcional com HTML e CSS, mas melhorias visuais, conteúdo adicional ou novas funcionalidades podem ser inseridas.
